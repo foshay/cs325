@@ -1,0 +1,59 @@
+0.
+    (a) Facebook
+        (1) Undirected
+        (2) Sparse
+        (3) Cyclic
+    (b) Twitter
+        (1) Directed
+        (2) Sparse
+        (3) Cyclic
+    (c) a family
+        (1) Undirected
+        (2) Dense
+        (3) Cyclic
+    (d) V=airports, E=direct_flights
+        (1) Undirected
+        (2) Sparse
+        (3) Cyclic
+    (e) a mesh
+        (1) Undirected
+        (2) Sparse
+        (3) Cyclic
+    (f) V=courses, E=prerequisites
+        (1) Directed
+        (2) Sparse
+        (3) Acyclic
+    (g) a tree
+        (1) Directed
+        (2) Sparse
+        (3) Acyclic
+    (h) V=linux_software_packages, E=dependencies
+        (1) Directed
+        (2) Sparse
+        (3) Acyclic
+    (i) DP subproblems for 0-1 knapsack
+        (1) Directed
+        (2) Sparse
+        (3) Acyclic
+1.
+    (a)
+        I did not because I am dumb. It starts the ordering with 0 dependancies and
+        works it's way through the graph
+    (b)
+        They use topological ordering.
+    (c)
+        no because Top-down uses topological ordering.
+Debriefing:
+    (0)
+        Isak Foshay
+    (1)
+        5 hours
+    (2)
+        Moderate
+    (3)
+        Mostly alone. Had tips from friend as well
+    (4)
+        60%
+    (5)
+        The coding session was definitely helpful but I feel like I didn't work
+        on the homework as long as usual which decreased my grasp of the topic.

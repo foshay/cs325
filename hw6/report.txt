@@ -1,0 +1,39 @@
+0:
+    1.a
+        Always choose the best bang for your buck. Cost/value.
+    1.b
+        Counter example is a bag of capacity 3 and two items,
+        (2,4),(3,5). You would choose the 2,4 item and not be able to fit
+        any more items which is not the optimal solution.
+    1.c
+        opt[W] is the best solution, or maximum value, for a bag of W capacity.
+    1.d
+        opt[W] = max(opt-w_i + a[i]) for 0-i while W>=0
+    1.e
+        opt[0] = 0 ; w_i <= W
+    1.f
+        O(WN) where W is the capacity of the knapsack and N is the number of items
+    2.a
+        Always choose the best bang for your buck Cost/value
+    2.b
+        Counter example is the same as problem 1.
+    2.c
+        opt[W,k] is the best solution between taking items or leaving items.
+    2.d
+        opt[W,k] = max(opt[W-w_i,k-1]+a[i], opt[W-w_i,k-1]) where the weight
+        is related to how many of one item we will take.
+    2.e
+        opt[_,0] = 0 opt[0,_] = 0. w_i <= W
+    2.f
+        O(WN) where W is the capacity of the knapsack and N is the number of items
+        to choose from.
+
+Debriefing:
+    0. Isak Foshay
+    1. 14
+    2. Difficult
+    3. Mostly alone I cried with some fellow students a couple times
+    4. 40%
+    5. I love that I can rewatch the lectures. I watched the last 2 lectures probably
+    4-5 times each
+    6. I dislike the jump in difficulty, as well as the participation system.

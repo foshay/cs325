@@ -1,0 +1,32 @@
+import heapq
+def max_wis(a):
+    mis = {}
+
+    def _max_wis(a):
+        n = len(a)
+        if (n <=0):
+            return 0, []
+        len1 = n-1
+        len2 = n-2
+        if n not in mis:
+            val1, list1 = _max_wis(a[:len1])
+            val2, list2 = _max_wis(a[:len2])
+            val2 += a[n-1]
+            if(val2 > val1):
+                list2.append(a[n-1])
+                mis[n] = (val2, list2)
+                return mis[n]
+            else:
+                mis[n] = (val1, list1)
+                return mis[n]
+        return mis[n]
+
+    return _max_wis(a)
+
+if __name__ == "__main__":
+    print (max_wis([7,8,5]) == (12, [7,5]))
+    print (max_wis([-1,8,10]) == (10, [10]))
+    print (max_wis([10,10,10]) == (20, [10,10]))
+    print (max_wis([-1,-8,-10]) == (0, []))
+    print (max_wis([0,0,0]) == (0, [0,0]))
+    print (max_wis([9,1,2,3,3,2,1,0,4,2,6]) == (15, [9,6]))

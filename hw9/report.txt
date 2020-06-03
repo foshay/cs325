@@ -1,0 +1,22 @@
+1.
+    Time: O(E*log(V)). We look through each node (E+V) coupling and for each time we look,
+    we decreasekey which is log(V)
+    Space:
+2
+    Time: K+N*Log(N+K).
+
+    Better Time with qselect would be O(K + nlog(n+k))
+Debriefing:
+    (0)
+        Isak Foshay
+    (1)
+        4 hours
+    (2)
+        Moderate
+    (3)
+        Met up with some friends but started alone
+    (4)
+        85%
+    (5)
+        This class doesn't feel like a 300 level class. It feels like more of a 400
+        level class.

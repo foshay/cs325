@@ -1,0 +1,17 @@
+1.
+    Time complexity is O(n^3)
+    Space complexity is O(n^2)
+2.
+    Time complexity is O(n^3)
+    Space complexity is O(n^2)
+3.
+    Time complexity is O(n^3+n^2*klogk)
+    Space complexity is O(n^2*k)
+
+Debriefing:
+    0. Isak Foshay
+    1. 7
+    2. difficult but was easy becuase liang gave us the answer to kbest in class
+    3. Mostly alone but had help
+    4. 80%
+    5. Coding sessions are nice but gave the answer away. If there was a way to do a coding session that showed how to solve a similar problem or used the same concepts instead of just solving the problem for everyone that might make people learn more.

@@ -1,0 +1,27 @@
+solutions
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Isak Foshay <foshayi@flip3.engr.oregonstate.edu>
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   solutions/.dropbox.attr
+#	new file:   solutions/closest_sorted.py
+#	new file:   solutions/closest_sorted_fast.py
+#	new file:   solutions/closest_sorted_slow.py
+#	new file:   solutions/closest_unsorted.py
+#	new file:   solutions/datastream.py
+#	new file:   solutions/inversions.py
+#	new file:   solutions/kmergesort.py
+#	new file:   solutions/longest.py
+#	new file:   solutions/msort0.py
+#	new file:   solutions/msort1.py
+#	new file:   solutions/msort2.py
+#	new file:   solutions/nbest.py
+#	new file:   solutions/report.txt
+#	new file:   solutions/solution_report.txt
+#	new file:   solutions/xyz.py
+#

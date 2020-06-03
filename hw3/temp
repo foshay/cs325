@@ -1,0 +1,9 @@
+>>> from closest_sorted import *
+>>> array = [1,2,3,4,4,7]
+>>> arrayB = find(array,5.2,2)
+>>> array[3] == arrayB[0]
+True
+>>> array[3] is arrayB[0]
+True
+>>>
+

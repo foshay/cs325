@@ -1,0 +1,9 @@
+Debriefing:
+    0.Isak Foshay
+    1.I spent 11 hours on this assignment
+    2.Unnecessarily difficult. However,
+    this is unrelated to the actual assignment.
+    3.Mostly alone but my boy Michael Huang helped me finally understand
+    4.I understand 74% understanding
+    5.I like that the lectures are uploaded online I really appreciate it.
+    6.I dislike how much time is spent on incorrect implementations / inefficient algorithms. The code the teacher showed in class for mis.py got stuck in my head and I couldn't stop thinking of splitting arrays instead of actually using the dicitonary correctly.

@@ -1,0 +1,59 @@
+0.
+    (1). heapq.heappush()
+        (a). heappush is O(nlogn) because it has to look through each element which is O(n).
+        For each element we need to bubble up which takes O(logn) doing this for each element gives n*logn.
+        (b).
+            In [38]: def hpush():
+                ...:     h = []
+                ...:     {heapq.heappush(h,x) for x in random.sample(xrange(10*10000000), k=
+                ...: 10000000)}
+
+            In [39]: %time hpush()
+            CPU times: user 13.3 s, sys: 284 ms, total: 13.6 s
+            Wall time: 13.6 s
+
+        (c).
+            In [42]: def hpush():
+                ...:     h = []
+                ...:     {heapq.heappush(h,x) for x in (range(10000000))}
+
+            In [43]: %time hpush()
+            CPU times: user 5.25 s, sys: 104 ms, total: 5.36 s
+            Wall time: 5.32 s
+
+    (2).
+        (a). Heapify is O(n) Because it is most efficient at the lowest levels due to most of the nodes
+        residing towards the bottom of the binary tree. Heapify works by sifting down values towards the botom of the tree,
+        and because that is where most of the nodes already reside anyway we reduce the amount of work
+        by a factor of logn
+        (b).
+            In [39]: def hipy():
+                ...:     h = []
+                ...:     {heapq.heapify(random.sample(xrange(10*10000000), k=10000000))}
+
+            In [41]: %time hipy()
+            CPU times: user 11.3 s, sys: 232 ms, total: 11.6 s
+            Wall time: 11.5 s
+
+        (c).
+            In [44]: def hipy():
+                ...:     h = []
+                ...:     {heapq.heapify(range(10000000))}
+
+            In [45]: %time hipy()
+            CPU times: user 6.56 s, sys: 35.9 ms, total: 6.6 s
+            Wall time: 6.6 s
+1.
+
+
+
+Debriefing:
+    0. What's your name?: Isak Foshay
+    1. Approximately how many hours did you spend on this assignment?: 6 hours
+    2. Would you rate it as easy, moderate, or difficult? : Moderate to moderate/difficult
+    3. Did you work on it mostly alone, or mostly with other people?: Always alone :(
+        Note you are encouraged to discuss with your classmates,
+        but each students should submit his/her own code.
+    4. How deeply do you feel you understand the material it covers (0%-100%)? 80%
+    5. Which part(s) of the course you like the most so far?: I like the focus on teaching algorithms that will be mentioned in coding interviews
+    6. Which part(s) of the course you dislike the most so far?: 2 quizzes off the bat that are huge percentages of the grade.

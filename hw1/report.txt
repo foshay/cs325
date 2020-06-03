@@ -1,0 +1,22 @@
+0.
+    Quicksort's best case is O(nLogn) and happens when the partition process always
+    picks the middle element.
+    Quicksort's worst case is O(n^2) and happens when given a sorted list or when
+    the partition process always chooses the biggest or smallest element.
+    Quicksort's average case is O(nLogn) this is because when n is large the picking
+    of pivot points will tend to average out towards the middle.
+1.
+    Quickselect's best case is O(n) and happens when we find the desired element
+    on the first go. Quickselect's worst case is O(n^2) and happens when we
+    constantly choose the largest or smallest element to be the pivot point.
+    The average case is also O(n)
+2.
+    sorted(t) should be O(nLogn) because we have to touch each node and sort the
+    nodes attached. search(t,x) should be O(n) because we have to check each node.
+    insert(t,x) should be O(n) because we use _search() which is O(n)
+DEBRIEFING
+1. 6 hours (I am bad though so this means nothing)
+2. Easy
+3. All alone :,(
+4. I understand it around 90%
+5. Couldn't get insert() to work and in the HW it says it will be easy :(

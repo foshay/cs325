@@ -1,0 +1,10 @@
+import bisect
+def find(a, x, k):
+    n = len(a)
+    ab = [abs(y-x) for y in a]
+    ba = bisect.bisect(a, x)
+    print(ab)
+    print(ab[ba])
+    print(ba)
+    #array = [a[o] for (o, m) in enumerate(ab) if m <= q]
+    #print(array[:k])
